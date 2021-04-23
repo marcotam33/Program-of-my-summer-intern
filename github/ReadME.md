@@ -37,7 +37,7 @@ CSS is a programme which included numbers of function, eg. 'AdminConsole', 'CSS-
 
 Example:
 |Time|ID |role |ip|'AdminConsole'|'CSS-RPT'|'CSS-SUP'|...|
-|-----|---- |---|-----|-|-|-|-|-|-|-|-|-|-|
+|----------------|-------------------|-----------------------------|-----------------------------|----------------|-------------------|-----------------------------|
 |06:13|01022|OTHERS|157.666.333.22|0|2|0|0|
 
 > **Note:** This programme is to analyse the whole process when each employee used CSS. And it helps to store all logging record into database with their process record.

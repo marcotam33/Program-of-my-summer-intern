@@ -25,6 +25,8 @@ Example:
 |4|OTHERS|0.3xxxx min|4 min|
 |1|OC|0.4xxxx min|4 min|
 |2|OC|0.6xxxx min|4 min|
+
+...
 ...
 > **Note:** Each Floor in HACTL has its speceific function. For example, floor 4 is for storing refrigerated cargo, floor 1 is to load cargo onto truck, etc. 
 
@@ -40,6 +42,8 @@ Example:
 |-----|-----|-----|-----|--------------|---------|---------|---|
 |06:13|01022|OTHERS|157.666.333.22|0|2|0|...|
 
+...
+
 > **Note:** This programme is to analyse the whole process when each employee used CSS. And it helps to store all logging record into database with their process record.
 
 > **Note:** Time refers to time they spent on the machine(MIN:SEC). IP is to define which machine they are using. And the number under the function is the times that they have used the function in whole process.
@@ -51,10 +55,12 @@ This task is to analyse the data we storded with task3&4. Actually, I've done 3 
 
 
 Example:
-|Start|End  |Time  |ID   |role |CPlus functions|CSS functions|BSS functions|...|
-|-----|-----|------|-----|-----|---------------|-------------|-------------|---|
-|12:00:00|12:06:13|06:13|01022|OTHERS|0|2, 'CSS-RPT', 'CSS-SUP'|0|...|
-|12:06:13|12:08:13|02:00|01022|OTHERS|0|0|1, 'BSS-RPT'|...|
+|Start|End  |Time  |ID   |role |CPlus functions|CSS functions|BSS functions|
+|-----|-----|------|-----|-----|---------------|-------------|-------------|
+|12:00:00|12:06:13|06:13|01022|OTHERS|0|2, 'CSS-RPT', 'CSS-SUP'|0|
+|12:06:13|12:08:13|02:00|01022|OTHERS|0|0|1, 'BSS-RPT'|
+
 ...
+
 > **Note:** This programme is to analyse the whole process when employee/porter/truck do their daily work routine in company. And it helps to see how long they spent on each task.
 

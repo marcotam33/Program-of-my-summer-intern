@@ -51,10 +51,10 @@ This task is to analyse the data we storded with task3&4. Actually, I've done 3 
 
 
 Example:
-|Start|End|Time|ID |role |CPlus functions|CSS functions|BSS functions|...|
-|-----|---- |---|-----|-|-|-|-|-|-|-|-|-|-|
-|12:00:00|12:06:13|06:13|01022|OTHERS|0|2, 'CSS-RPT', 'CSS-SUP'|0|0|
-|12:06:13|12:08:13|02:00|01022|OTHERS|0|0|1, 'BSS-RPT'|0|
+|Start|End  |Time  |ID   |role |CPlus functions|CSS functions|BSS functions|...|
+|-----|-----|------|-----|-----|---------------|-------------|-------------|---|
+|12:00:00|12:06:13|06:13|01022|OTHERS|0|2, 'CSS-RPT', 'CSS-SUP'|0|...|
+|12:06:13|12:08:13|02:00|01022|OTHERS|0|0|1, 'BSS-RPT'|...|
 ...
 > **Note:** This programme is to analyse the whole process when employee/porter/truck do their daily work routine in company. And it helps to see how long they spent on each task.
 

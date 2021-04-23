@@ -36,9 +36,9 @@ Example:
 CSS is a programme which included numbers of function, eg. 'AdminConsole', 'CSS-RPT', 'CSS-SUP', etc (total 34 functions). The task is to count the time and function which employee has used in which floor and machine (Each floor has numbers of machine to run CSS). So here will have 4 dimensions: Time, Function, Person, Floor.
 
 Example:
-|Time|ID |role |ip|'AdminConsole'|'CSS-RPT'|'CSS-SUP'|...|
-|----------------|-------------------|-----------------------------|-----------------------------|----------------|-------------------|-----------------------------|
-|06:13|01022|OTHERS|157.666.333.22|0|2|0|0|
+|Time |ID   |role |ip   |'AdminConsole'|'CSS-RPT'|'CSS-SUP'|...|
+|-----|-----|-----|-----|--------------|---------|---------|---|
+|06:13|01022|OTHERS|157.666.333.22|0|2|0|...|
 
 > **Note:** This programme is to analyse the whole process when each employee used CSS. And it helps to store all logging record into database with their process record.
 

@@ -152,7 +152,7 @@ listofUI = ['AppMgr_UI.log.10','AppMgr_UI.log.9','AppMgr_UI.log.8','AppMgr_UI.lo
 listoflogsnotexist = []
 
 APPlist = ['AdminConsole','CSS-RPT','CSS-SUP','CAS-NS','NSAdminConsole','CSS-UTIL-1','CSS-UTIL-2','VIS2','Hactl.com','HEx','iHRIS','CSS-SDS','BSS-SDS','CSS-EMS','BSS-EMS','VIS2Fallback','HactlPlus','BSS-SDS-FB','CSS-SDS-FB','EAMS','CSS-UTILITY','CP-Browser','CP-Browser-Fallback','CSS-Mobile','CP-Mobile','LP-BSS-RPT','LP-BSS-UTILITY','e-Learning','LP-CSS-Support-Util','LP-BSS-SUP','LP-CSS-RPT','LP-CSS-SUP','LP-CSS-UTILITY','FRWEB']
-
+c = len(APPlist)
 file_in_hcd =  [ name for name in os.listdir('/3/hcd') if os.path.isdir(os.path.join('/3/hcd', name)) ]
 file_that_have_problem = []
 

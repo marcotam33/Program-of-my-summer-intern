@@ -12,6 +12,10 @@ e.g.
 
 And the method I approached is to do data mining/crawling.
 
+And lastly, due to Non-Disclosure Agreement, the code of data analysis program and data visualization program cannot be shown. For further details, the analysis is done with t-distribution and data visualization program is built with Bokeh.
+
+
+
 ## similarity for CPlus, CSS, BSS
 
 CPlus, CSS, BSS are three main function/programme that used by employees(porters) in HACTL. This task is to find out similarity between these 3 programmes from aspect of **floors**, time, role. SD and mean are calculated as a stantard to measure the difference between **floors**. 
